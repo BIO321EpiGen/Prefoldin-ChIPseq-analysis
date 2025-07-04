@@ -31,6 +31,13 @@ The study focuses on the effect of **PFDN5 subunit knockout** on transcriptional
 
 ---
 
+## Resources
+- "raw_counts_si_normalized.txt" is a txt file that was generated in the "reads_count" script, then processed in Excel to perform spike-in normalization, and needed for the differential analysis. The proccessed file is provided to help reproducibility.
+  
+- "NOGENEID_HCT116_expressed_genes_SI_computematrix" is derived from the original BED file "HCT116_expressed_genes_SI_computematrix", which contains expressed genes identified through RNA-seq analysis in Payán-Bravo et al., 2021. This file is also needed in the differential analysis workflow.
+
+---
+
 ## Notes
 
 - **R version:** ≥ 4.4.2  
